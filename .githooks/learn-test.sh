@@ -43,7 +43,7 @@ echo -e "🚀 Sending submission to ${CYAN}http://*:8080/challenge01${RESET}..."
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
 
 # === Send request ===
-response=$(curl -s  -X POST http://localhost:8080/challenge01 \
+response=$(curl -s  -X POST http://13.232.198.0:8080/challenge01 \
   -H "Authorization: Bearer $challengeToken" \
   -H "X-User-Email: $challengeEmail" \
   -F "learnId=$learnId" \

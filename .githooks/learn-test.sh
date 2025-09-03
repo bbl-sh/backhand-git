@@ -14,10 +14,10 @@ RESET='\033[0m'
 #
 challengeEmail=$(git config user.challengeEmail)
 challengeToken=$(git config user.challengeToken)
-challengeFile="./challenges/challenge.py"
+challengeFile="../challenges/challenge.py"
 problemId=1   # Set the problem ID you want to test
 learnName="mastering-python"
-learnId="4"
+learnId="1"
 
 # === Checks ===
 if [[ -z "$challengeEmail" || -z "$challengeToken" ]]; then

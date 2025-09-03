@@ -24,10 +24,11 @@ if [[ "$COMMIT_MSG" == "test" ]]; then
     # Abort commit silently
     exit 1
 fi
+
 if [[ "$COMMIT_MSG" == "run" ]]; then
-    # Run test.sh silently
+    # Run learn-test.sh silently
     chmod +x ./learn-test.sh
-    ./test.sh
+    ./learn-test.sh
     # Abort commit silently
     exit 1
 fi
